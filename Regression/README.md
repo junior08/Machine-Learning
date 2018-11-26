@@ -2,4 +2,4 @@
 
 
 The dataset for simple linear regression is the brain-body weight dataset.
-It is included within the simple linear regression folders.
+It is included within the simple linear regression folders. 
