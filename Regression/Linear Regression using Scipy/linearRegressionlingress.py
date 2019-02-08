@@ -7,10 +7,10 @@ from sklearn import linear_model
 from scipy import stats
 import matplotlib.pyplot as plt
 
-                                                #read data
+                                                #read data from brain body file
 dataframe = pd.read_fwf('brain_body.txt')
 x_values = dataframe[['Brain']].values.tolist()
-y_values = dataframe[['Body']].values.tolist()
+y_values = dataframe[['Body']].values.tolist() #segregating columns
 
 x = np.array(x_values)
                                                 
