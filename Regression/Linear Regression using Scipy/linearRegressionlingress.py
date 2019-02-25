@@ -24,4 +24,4 @@ plt.scatter(x_values, y_values)
 plt.plot(x_values, intercept +slope * x)
 plt.xlabel('Brain weight', fontsize=18)
 plt.ylabel('Body weight', fontsize=16)
-plt.show()
+plt.show()#plots 
